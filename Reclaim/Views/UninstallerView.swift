@@ -270,6 +270,13 @@ struct UninstallerView: View {
                 }
             }
         }
+        .onAppear {
+            if appState.installedApps.isEmpty && !appState.isScanning {
+                Task {
+                    await appState.startQuickScan()
+                }
+            }
+        }
     }
 }
 

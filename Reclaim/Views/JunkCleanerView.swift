@@ -275,6 +275,13 @@ struct JunkCleanerView: View {
             .frame(width: 420, height: 480)
             .background(.ultraThinMaterial)
         }
+        .onAppear {
+            if appState.junkCategories.isEmpty && !appState.isScanning {
+                Task {
+                    await appState.startQuickScan()
+                }
+            }
+        }
     }
 }
 
