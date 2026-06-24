@@ -11,8 +11,8 @@ struct ReclaimApp: App {
                 .environment(appState)
                 .frame(minWidth: 950, minHeight: 650)
                 .preferredColorScheme(.dark) // Give Reclaim a premium, sleek dark look by default
-                .onAppear {
-                    UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { _, _ in }
+                .task {
+                    try? await UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound])
                 }
         }
         .windowStyle(.hiddenTitleBar)
