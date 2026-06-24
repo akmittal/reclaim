@@ -27,25 +27,30 @@ struct MainView: View {
                 }
             }
             .listStyle(.sidebar)
-            .navigationSplitViewColumnWidth(min: 220, ideal: 240, max: 280)
+            .navigationSplitViewColumnWidth(min: 240, ideal: 250, max: 300)
             .safeAreaInset(edge: .bottom) {
                 // Total Reclaimed footer card
-                VStack(alignment: .leading, spacing: 6) {
+                VStack(alignment: .leading, spacing: 4) {
                     Divider()
-                        .padding(.bottom, 4)
-                    HStack(spacing: 8) {
+                        .padding(.bottom, 2)
+                    HStack {
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text("Reclaimed Space")
+                                .font(.caption2)
+                                .foregroundColor(.secondary)
+                                .textCase(.uppercase)
+                            Text(ByteCountFormatter.string(fromByteCount: appState.totalReclaimedBytes, countStyle: .file))
+                                .font(.system(size: 18, weight: .bold, design: .rounded))
+                                .foregroundColor(.primary)
+                        }
+                        Spacer()
                         Image(systemName: "checkmark.shield.fill")
-                            .font(.system(size: 14))
+                            .font(.system(size: 18))
                             .foregroundColor(.green)
-                        Text("Reclaimed Space")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
                     }
-                    Text(ByteCountFormatter.string(fromByteCount: appState.totalReclaimedBytes, countStyle: .file))
-                        .font(.system(size: 24, weight: .bold, design: .rounded))
-                        .foregroundColor(.primary)
                 }
-                .padding()
+                .padding(.horizontal, 16)
+                .padding(.vertical, 10)
                 .background(.ultraThinMaterial)
             }
         } detail: {
@@ -143,10 +148,10 @@ struct SidebarRow: View {
             
             Spacer()
         }
-        .padding(.horizontal, 14)
-        .padding(.vertical, 10)
+        .padding(.horizontal, 12)
+        .padding(.vertical, 7)
         .background(
-            RoundedRectangle(cornerRadius: 10)
+            RoundedRectangle(cornerRadius: 8)
                 .fill(isSelected ? accentColor.opacity(0.18) : Color.clear)
         )
         .contentShape(Rectangle())
