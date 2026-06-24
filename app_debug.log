@@ -1,0 +1,92 @@
+--- Clean Started ---
+Files selected to delete: 5
+ - Path: /Library/Logs/MCXTools.log
+ - Path: /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex
+ - Path: /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus
+ - Path: /Users/akmittal/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex
+ - Path: /Users/akmittal/Library/Developer/Xcode/DerivedData/CompilationCache.noindex
+Deleted bytes: 123092041
+Errors encountered:
+  [ERROR] Failed to delete /Library/Logs/MCXTools.log: “MCXTools.log” couldn’t be removed because you don’t have permission to access it.
+Clean finished. Status: Clean completed! Reclaimed 123.1 MB
+[24/06/26, 8:48:27 PM] --- Starting scanAllCategories ---
+[24/06/26, 8:48:27 PM] Scanning category: User Caches at /Users/akmittal/Library/Caches
+[24/06/26, 8:48:27 PM] POSIX contentsOfDirectory returned 169 items for /Users/akmittal/Library/Caches
+[24/06/26, 8:48:29 PM] Category User Caches scan finished. Found 130 files, total size: 15535001352 bytes
+[24/06/26, 8:48:29 PM] Scanning category: User Logs at /Users/akmittal/Library/Logs
+[24/06/26, 8:48:29 PM] POSIX contentsOfDirectory returned 6 items for /Users/akmittal/Library/Logs
+[24/06/26, 8:48:29 PM] Category User Logs scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:48:29 PM] Scanning category: System Caches at /Library/Caches
+[24/06/26, 8:48:29 PM] POSIX contentsOfDirectory returned 7 items for /Library/Caches
+[24/06/26, 8:48:29 PM] Category System Caches scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:48:29 PM] Scanning category: System Logs at /Library/Logs
+[24/06/26, 8:48:29 PM] POSIX contentsOfDirectory returned 7 items for /Library/Logs
+[24/06/26, 8:48:29 PM] Category System Logs scan finished. Found 1 files, total size: 1417 bytes
+[24/06/26, 8:48:29 PM] Scanning category: Xcode Developer Junk at /Users/akmittal/Library/Developer/Xcode/DerivedData
+[24/06/26, 8:48:29 PM] POSIX contentsOfDirectory returned 1 items for /Users/akmittal/Library/Developer/Xcode/DerivedData
+[24/06/26, 8:48:29 PM] Category Xcode Developer Junk scan finished. Found 1 files, total size: 15339 bytes
+[24/06/26, 8:48:29 PM] Scanning category: Trash Bins at /Users/akmittal/.Trash
+[24/06/26, 8:48:29 PM] POSIX scan error for /Users/akmittal/.Trash: The file “Trash” couldn’t be opened because you don’t have permission to view it.
+[24/06/26, 8:48:29 PM] Attempting AppleScript fallback for Trash Bins...
+[24/06/26, 8:48:29 PM] AppleScript returned output string lines count: 1
+[24/06/26, 8:48:29 PM] AppleScript fallback found 1 items in Trash.
+[24/06/26, 8:48:29 PM] Category Trash Bins scan finished. Found 1 files, total size: 465194 bytes
+[24/06/26, 8:48:29 PM] --- scanAllCategories Completed ---
+[24/06/26, 8:48:35 PM] Starting deleteFiles for 3 URLs
+[24/06/26, 8:48:35 PM] Triggering AppleScript empty trash...
+[24/06/26, 8:48:35 PM] AppleScript empty trash reclaimed 465194 bytes
+[24/06/26, 8:48:35 PM] --- Starting scanAllCategories ---
+[24/06/26, 8:48:35 PM] Scanning category: User Caches at /Users/akmittal/Library/Caches
+[24/06/26, 8:48:35 PM] POSIX contentsOfDirectory returned 169 items for /Users/akmittal/Library/Caches
+[24/06/26, 8:48:37 PM] Category User Caches scan finished. Found 130 files, total size: 15535001352 bytes
+[24/06/26, 8:48:37 PM] Scanning category: User Logs at /Users/akmittal/Library/Logs
+[24/06/26, 8:48:37 PM] POSIX contentsOfDirectory returned 6 items for /Users/akmittal/Library/Logs
+[24/06/26, 8:48:37 PM] Category User Logs scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:48:37 PM] Scanning category: System Caches at /Library/Caches
+[24/06/26, 8:48:37 PM] POSIX contentsOfDirectory returned 7 items for /Library/Caches
+[24/06/26, 8:48:37 PM] Category System Caches scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:48:37 PM] Scanning category: System Logs at /Library/Logs
+[24/06/26, 8:48:37 PM] POSIX contentsOfDirectory returned 7 items for /Library/Logs
+[24/06/26, 8:48:37 PM] Category System Logs scan finished. Found 1 files, total size: 1417 bytes
+[24/06/26, 8:48:37 PM] Scanning category: Xcode Developer Junk at /Users/akmittal/Library/Developer/Xcode/DerivedData
+[24/06/26, 8:48:37 PM] POSIX contentsOfDirectory returned 0 items for /Users/akmittal/Library/Developer/Xcode/DerivedData
+[24/06/26, 8:48:37 PM] Category Xcode Developer Junk scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:48:37 PM] Scanning category: Trash Bins at /Users/akmittal/.Trash
+[24/06/26, 8:48:37 PM] POSIX scan error for /Users/akmittal/.Trash: The file “Trash” couldn’t be opened because you don’t have permission to view it.
+[24/06/26, 8:48:37 PM] Attempting AppleScript fallback for Trash Bins...
+[24/06/26, 8:48:37 PM] AppleScript returned output string lines count: 0
+[24/06/26, 8:48:37 PM] AppleScript fallback found 0 items in Trash.
+[24/06/26, 8:48:37 PM] Category Trash Bins scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:48:37 PM] --- scanAllCategories Completed ---
+--- Clean Started ---
+Files selected to delete: 3
+ - Path: /Library/Logs/MCXTools.log
+ - Path: /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus
+ - Path: /Users/akmittal/.Trash/sale-new-odin-2-portal-base-v0-wp5tgoehsy6h1.webp
+Deleted bytes: 480533
+Errors encountered:
+  [ERROR] Failed to delete /Library/Logs/MCXTools.log: “MCXTools.log” couldn’t be removed because you don’t have permission to access it.
+Clean finished. Status: Clean completed! Reclaimed 481 KB
+[24/06/26, 8:49:34 PM] --- Starting scanAllCategories ---
+[24/06/26, 8:49:34 PM] Scanning category: User Caches at /Users/akmittal/Library/Caches
+[24/06/26, 8:49:34 PM] POSIX contentsOfDirectory returned 168 items for /Users/akmittal/Library/Caches
+[24/06/26, 8:49:35 PM] Category User Caches scan finished. Found 130 files, total size: 15535001352 bytes
+[24/06/26, 8:49:35 PM] Scanning category: User Logs at /Users/akmittal/Library/Logs
+[24/06/26, 8:49:35 PM] POSIX contentsOfDirectory returned 6 items for /Users/akmittal/Library/Logs
+[24/06/26, 8:49:35 PM] Category User Logs scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:49:35 PM] Scanning category: System Caches at /Library/Caches
+[24/06/26, 8:49:35 PM] POSIX contentsOfDirectory returned 7 items for /Library/Caches
+[24/06/26, 8:49:35 PM] Category System Caches scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:49:35 PM] Scanning category: System Logs at /Library/Logs
+[24/06/26, 8:49:35 PM] POSIX contentsOfDirectory returned 7 items for /Library/Logs
+[24/06/26, 8:49:35 PM] Category System Logs scan finished. Found 1 files, total size: 1417 bytes
+[24/06/26, 8:49:35 PM] Scanning category: Xcode Developer Junk at /Users/akmittal/Library/Developer/Xcode/DerivedData
+[24/06/26, 8:49:35 PM] POSIX contentsOfDirectory returned 0 items for /Users/akmittal/Library/Developer/Xcode/DerivedData
+[24/06/26, 8:49:35 PM] Category Xcode Developer Junk scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:49:35 PM] Scanning category: Trash Bins at /Users/akmittal/.Trash
+[24/06/26, 8:49:35 PM] POSIX scan error for /Users/akmittal/.Trash: The file “Trash” couldn’t be opened because you don’t have permission to view it.
+[24/06/26, 8:49:35 PM] Attempting AppleScript fallback for Trash Bins...
+[24/06/26, 8:49:36 PM] AppleScript returned output string lines count: 0
+[24/06/26, 8:49:36 PM] AppleScript fallback found 0 items in Trash.
+[24/06/26, 8:49:36 PM] Category Trash Bins scan finished. Found 0 files, total size: 0 bytes
+[24/06/26, 8:49:36 PM] --- scanAllCategories Completed ---

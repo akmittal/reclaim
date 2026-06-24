@@ -1,0 +1,19 @@
+name: Reclaim
+options:
+  bundleIdPrefix: com.reclaim
+targets:
+  Reclaim:
+    type: application
+    platform: macOS
+    deploymentTarget: "14.0"
+    sources:
+      - path: Reclaim
+    settings:
+      CODE_SIGN_ENTITLEMENTS: Reclaim/Reclaim.entitlements
+      ENABLE_HARDENED_RUNTIME: YES
+      INFOPLIST_FILE: Reclaim/Info.plist
+      PRODUCT_BUNDLE_IDENTIFIER: com.reclaim.Reclaim
+      ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+      MARKETING_VERSION: "1.0.0"
+      CURRENT_PROJECT_VERSION: "1"
+      SWIFT_VERSION: "6.0"

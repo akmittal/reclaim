@@ -1,0 +1,179 @@
+{
+  "" : {
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-primary.dia",
+    "emit-module-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-primary-emit-module.dia",
+    "pch" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-primary.swiftdeps"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Models/AppState.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/AppState~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Models/CoreModels.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/CoreModels~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Models/SystemStats.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SystemStats~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/ReclaimApp.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ReclaimApp~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Services/JunkCleanerService.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerService~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Services/LargeFilesFinderService.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderService~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Services/MaintenanceService.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceService~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Services/SpaceLensService.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensService~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Services/UninstallerService.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerService~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Views/DashboardView.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/DashboardView~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Views/JunkCleanerView.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/JunkCleanerView~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Views/LargeFilesFinderView.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/LargeFilesFinderView~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Views/MainView.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MainView~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Views/MaintenanceView.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/MaintenanceView~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Views/SpaceLensView.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/SpaceLensView~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/Reclaim/Views/UninstallerView.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/UninstallerView~partial.swiftmodule"
+  },
+  "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/akmittal/projects/reclaim/build/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

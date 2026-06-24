@@ -1,0 +1,540 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project Reclaim.xcodeproj -scheme Reclaim -configuration Debug -destination platform=macOS build
+
+2026-06-24 20:08:54.047 xcodebuild[9715:1996644] [MT] IDERunDestination: Supported platforms for the buildables in the current scheme is empty.
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:macOS, arch:arm64, id:00008132-000648C63AF8801C, name:My Mac }
+{ platform:macOS, arch:x86_64, id:00008132-000648C63AF8801C, name:My Mac }
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'Reclaim' in project 'Reclaim' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 20fce6eebb456abda52fc5fa88212d84
+Build description path: /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/XCBuildData/20fce6eebb456abda52fc5fa88212d84.xcbuilddata
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk /Users/akmittal/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.5-25F70-e082c4a02f00227109f4ed75e425c832.sdkstatcache
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -o /Users/akmittal/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.5-25F70-e082c4a02f00227109f4ed75e425c832.sdkstatcache
+
+CreateBuildDirectory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    builtin-create-build-directory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products
+
+CreateBuildDirectory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    builtin-create-build-directory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    builtin-create-build-directory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    builtin-create-build-directory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    builtin-create-build-directory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug
+
+CreateBuildDirectory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    builtin-create-build-directory /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim-8bfa00ac0599eecd066fd5f855c203c3-VFS/all-product-headers.yaml
+    cd /Users/akmittal/projects/reclaim/Reclaim.xcodeproj
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim-8bfa00ac0599eecd066fd5f855c203c3-VFS/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-DebugDylibPath-normal-arm64.txt (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.DependencyMetadataFileList (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.DependencyStaticMetadataFileList (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-generated-files.hmap (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-generated-files.hmap
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.hmap (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.hmap
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-all-non-framework-target-headers.hmap (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-project-headers.hmap (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-project-headers.hmap
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-own-target-headers.hmap (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-all-target-headers.hmap (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-DebugDylibInstallName-normal-arm64.txt (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-DebugDylibInstallName-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.LinkFileList (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.LinkFileList
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-OutputFileMap.json (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftConstValuesFileList (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftFileList (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftFileList
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_const_extract_protocols.json (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/Entitlements.plist (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    write-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/Entitlements.plist
+
+MkDir /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Resources (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /bin/mkdir -p /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Resources
+
+MkDir /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /bin/mkdir -p /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS
+
+MkDir /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /bin/mkdir -p /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents
+
+MkDir /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /bin/mkdir -p /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app
+
+ProcessProductPackaging /Users/akmittal/projects/reclaim/Reclaim/Reclaim.entitlements /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.app.xcent (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+    Entitlements:
+    
+    {
+    "com.apple.security.app-sandbox" = 0;
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility /Users/akmittal/projects/reclaim/Reclaim/Reclaim.entitlements -entitlements -format xml -o /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.app.xcent
+
+ProcessProductPackagingDER /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.app.xcent /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.app.xcent.der (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /usr/bin/derq query -f xml -i /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.app.xcent -o /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.app.xcent.der --raw
+
+Ld /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/__preview.dylib normal (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -O0 -L/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -F/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -install_name @rpath/Reclaim.debug.dylib -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_dependency_info.dat -Xlinker -no_adhoc_codesign -o /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/__preview.dylib
+
+MkDir /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/thinned (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /bin/mkdir -p /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/akmittal/projects/reclaim/Reclaim/Assets.xcassets (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/akmittal/projects/reclaim/Reclaim/Assets.xcassets --compile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Resources --output-format human-readable-text --notices --warnings --export-dependency-info /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_dependencies --output-partial-info-plist /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_generated_info.plist --app-icon AppIcon --enable-on-demand-resources NO --development-region en --target-device mac --minimum-deployment-target 14.0 --platform macosx --bundle-identifier com.reclaim.Reclaim --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+MkDir /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/unthinned (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /bin/mkdir -p /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/unthinned
+
+CompileAssetCatalogVariant thinned /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Resources /Users/akmittal/projects/reclaim/Reclaim/Assets.xcassets (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/akmittal/projects/reclaim/Reclaim/Assets.xcassets --compile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --enable-on-demand-resources NO --development-region en --target-device mac --minimum-deployment-target 14.0 --platform macosx
+/* com.apple.actool.compilation-results */
+/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_generated_info.plist_thinned
+/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/thinned/Assets.car
+
+
+LinkAssetCatalog /Users/akmittal/projects/reclaim/Reclaim/Assets.xcassets (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-linkAssetCatalog --thinned /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/thinned --thinned-dependencies /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_generated_info.plist_unthinned --output /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Resources --plist-output /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Resources/Assets.car (in target 'Reclaim' from project 'Reclaim')
+
+ProcessInfoPlistFile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Info.plist /Users/akmittal/projects/reclaim/Reclaim/Info.plist (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-infoPlistUtility /Users/akmittal/projects/reclaim/Reclaim/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/PkgInfo -expandbuildsettings -platform macosx -additionalcontentfile /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/assetcatalog_generated_info.plist -o /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Info.plist
+
+SwiftDriver Reclaim normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Reclaim -Onone @/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-macos14.0 -g -module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -F /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.5-25F70-e082c4a02f00227109f4ed75e425c832.sdkstatcache -output-file-map /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_const_extract_protocols.json -Xcc -iquote -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-generated-files.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-own-target-headers.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-all-target-headers.hmap -Xcc -iquote -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-project-headers.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/include -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources-normal/arm64 -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/arm64 -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-Swift.h -working-directory /Users/akmittal/projects/reclaim -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-7YG6UJOGOA7181WGBJV3NYLJP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrcheck-1HBR3JDQBKHLLXB1LUWIVPXCK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdbool-ADI1JMDAIE5MM64FKJ0JBS4J0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ptrauth-CY2AV7PNZ708NMJKI1NI0VWJU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdarg-LDR51V9PJZLU0NXMGA7GR04S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftShims-BJXVOU3FAT4JY4M6FQLB5OURQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_float-B8CUXIBKPNTQ5IH0SOOUAGYZU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/DeveloperToolsSupport-2ZLJPGFLP7YPQWMPD6TEFX0SM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_AvailabilityInternal-D3W9VZZHLHNLQ5AQUZ4BITULH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stddef-12K703F2N4LVA1XNST4SHG2H4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation1-5XU3UWJ8GQ4EG6OJ7DMAZH1HZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_limits-42GO8JWXCM140A8CNK1PXN54L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation2-1MLLI5Z8COOOSSZ2LMZ1XOK5B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_tgmath-2R5PVGG2TFJZJ11TC3H0DLXZD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdint-478T5JQ02GGA78X3TM4BL9D2Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/sys_types-14SW5OPLENCXJF29OP5KPIWFF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-EI3CY16NI2QU0GI1ZHZP1E8QE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/libDER-5JL2FD4FQWT16D7NSITMU6DJE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_DarwinFoundation3-1DIFC34T2P1BBK2VLPLM9KQTQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/OpenGL-8ITWUVAC6KEIBJG5J8BIQ3ODY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_stdatomic-8S4H6OLOYQQY9PTCG3F963XP8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/_Builtin_inttypes-80MJ6AMCMQ5FPBBIOJZ8O87XV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Darwin-CR3L7A26PNXB6ORG1JGG6JUNY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/simd-4JF102QECA6UCYQZZC6WMYTVK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CUPS-C7RH05PM3M4Q4DU5FJC9MS8M9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/MachO-QB4XGX8CXSJIV9CX0IUUM5P6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/libkern-AB8C59BAT3PY2PW0766213NT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/launch-8W8XWFFO4BVD6KVS7MQ1K9077.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Spatial-5POHLLN9XDP0PF3JVMCMQ2DBB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ObjectiveC-52HBS6Z1SQMHY7GBZ1V9SF99C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os_object-1CQ3QVYDMLQ9RWXB3L9BUSDOW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os_workgroup-3PK7ZKITZ4DIUZN9JBHPVR7AO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Dispatch-AIAITSAHBU6I2YJ7D5LLLC3K3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/XPC-DC15YGHYJ16RK5QUPY4LMH83K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreFoundation-B56GBGMEP10CPXAOXCF3R276M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/os-7AXJINJ9EC6IFW4PC5U21YFUW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Security-5BYJ4I6LEXCUX7F1N0SJSX44I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/IOKit-676QAVF17RG29SR4AM6YLC16S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CFNetwork-AOQLLDHV39NK9GKPLCLT9YEWK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ColorSync-1NEACO5YNN3G2DFPLVC758X1W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/DiskArbitration-88326Q4XPN5HCFSR0QMHHEAY4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreGraphics-25F6SWNPCE5XCVZ9B95NUT9MR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreServices-5OCX7HHY86QLDUU86CMAKR4QR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreText-292Z5KZTS6A6D25879O877H4T.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ImageIO-33DBKUZA9MF4UXFS46Q4K6Y51.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Foundation-ETO6RN6LEN153JPSPLAE0YDSH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/DataDetection-6EUEPGEDADE155E09LZLE127N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Symbols-P7KK17PIDAIEOPRHMRJ5EI5O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/IOSurface-CH3GWM184JD9CR4D6H9PFGRBG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreTransferable-DZ4PZGW44ZKI8UQ8XPIKDVQT6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/ApplicationServices-C4T5F1EYZ1I8B3BYAXA75T5DH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/UserNotifications-D84LQ4LXO184ZK2T18A8V1K41.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/OSLog-2HQO6KCU2ZPXEQZ9DV76AJG8J.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreData-8M0Q7ERCV3Q1VPBJ38NA1MRUT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Accessibility-AGZPBNE4Y5NHDOJTMKJZYI9SF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/UniformTypeIdentifiers-E7RSMG9GJ14IUBSBZDOMHEQCN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Metal-1OOEG0ND9N9HRUT9PBBZEB9OB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreVideo-4PKUP87OLM73J6HYE7ZRJO2GI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/CoreImage-78TPOTJGWOJ35A380Z8IPS3UF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/QuartzCore-DJUZCU8LO6WJEXMKSU8G073Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftUICore-1NV2ZSXBGWNOWQDISQRTIE0ER.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/AppKit-D8DMCUEUTBD8L56831XEOTLVF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/SwiftUI-8NPXB1VCDZVSSJ0VML34XQ291.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ Reclaim (in target 'Reclaim' from project 'Reclaim')
+
+EmitSwiftModule normal arm64 (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ SpaceLensView.swift,\ SystemStats.swift /Users/akmittal/projects/reclaim/Reclaim/Views/SpaceLensView.swift /Users/akmittal/projects/reclaim/Reclaim/Models/SystemStats.swift (in target 'Reclaim' from project 'Reclaim')
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Views/SpaceLensView.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Models/SystemStats.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ UninstallerService.swift /Users/akmittal/projects/reclaim/Reclaim/Services/UninstallerService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Services/UninstallerService.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ MaintenanceService.swift,\ MaintenanceView.swift /Users/akmittal/projects/reclaim/Reclaim/Services/MaintenanceService.swift /Users/akmittal/projects/reclaim/Reclaim/Views/MaintenanceView.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Services/MaintenanceService.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Views/MaintenanceView.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ UninstallerView.swift /Users/akmittal/projects/reclaim/Reclaim/Views/UninstallerView.swift (in target 'Reclaim' from project 'Reclaim')
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Views/UninstallerView.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ ReclaimApp.swift,\ SpaceLensService.swift /Users/akmittal/projects/reclaim/Reclaim/ReclaimApp.swift /Users/akmittal/projects/reclaim/Reclaim/Services/SpaceLensService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/ReclaimApp.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Services/SpaceLensService.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ JunkCleanerView.swift,\ LargeFilesFinderService.swift /Users/akmittal/projects/reclaim/Reclaim/Views/JunkCleanerView.swift /Users/akmittal/projects/reclaim/Reclaim/Services/LargeFilesFinderService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Views/JunkCleanerView.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Services/LargeFilesFinderService.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ DashboardView.swift,\ JunkCleanerService.swift /Users/akmittal/projects/reclaim/Reclaim/Views/DashboardView.swift /Users/akmittal/projects/reclaim/Reclaim/Services/JunkCleanerService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Views/DashboardView.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Services/JunkCleanerService.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ AppState.swift,\ CoreModels.swift /Users/akmittal/projects/reclaim/Reclaim/Models/AppState.swift /Users/akmittal/projects/reclaim/Reclaim/Models/CoreModels.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Models/AppState.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+/Users/akmittal/projects/reclaim/Reclaim/Models/AppState.swift:116:25: warning: no calls to throwing functions occur within 'try' expression
+            let large = try await largeFilesFinder.scanLargeFiles(paths: [downloadsURL, documentsURL])
+                        ^
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Models/CoreModels.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 Compiling\ LargeFilesFinderView.swift,\ MainView.swift /Users/akmittal/projects/reclaim/Reclaim/Views/LargeFilesFinderView.swift /Users/akmittal/projects/reclaim/Reclaim/Views/MainView.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Views/LargeFilesFinderView.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftCompile normal arm64 /Users/akmittal/projects/reclaim/Reclaim/Views/MainView.swift (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for Reclaim (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriver\ Compilation\ Requirements Reclaim normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Reclaim -Onone @/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-macos14.0 -g -module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -F /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.5-25F70-e082c4a02f00227109f4ed75e425c832.sdkstatcache -output-file-map /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_const_extract_protocols.json -Xcc -iquote -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-generated-files.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-own-target-headers.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-all-target-headers.hmap -Xcc -iquote -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-project-headers.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/include -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources-normal/arm64 -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/arm64 -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-Swift.h -working-directory /Users/akmittal/projects/reclaim -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftMergeGeneratedHeaders /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/Reclaim-Swift.h /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-Swift.h (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-swiftHeaderTool -arch arm64 /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-Swift.h -o /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/Reclaim-Swift.h
+
+Copy /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/arm64-apple-macos.swiftmodule /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftmodule (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftmodule /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/arm64-apple-macos.swiftmodule
+
+Copy /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/arm64-apple-macos.swiftdoc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftdoc (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftdoc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/arm64-apple-macos.swiftdoc
+
+Copy /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/arm64-apple-macos.abi.json /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.abi.json (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.abi.json /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/arm64-apple-macos.abi.json
+
+Copy /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftsourceinfo (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftsourceinfo /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.swiftmodule/Project/arm64-apple-macos.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling MaintenanceService.swift, MaintenanceView.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppState.swift, CoreModels.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling JunkCleanerView.swift, LargeFilesFinderService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling DashboardView.swift, JunkCleanerService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling ReclaimApp.swift, SpaceLensService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling LargeFilesFinderView.swift, MainView.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling UninstallerService.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SpaceLensView.swift, SystemStats.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriverJobDiscovery normal arm64 Compiling UninstallerView.swift (in target 'Reclaim' from project 'Reclaim')
+
+SwiftDriver\ Compilation Reclaim normal arm64 com.apple.xcode.tools.swift.compiler (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name Reclaim -Onone @/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -target arm64-apple-macos14.0 -g -module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -F /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -c -j10 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/SDKStatCaches.noindex/macosx26.5-25F70-e082c4a02f00227109f4ed75e425c832.sdkstatcache -output-file-map /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/akmittal/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_const_extract_protocols.json -Xcc -iquote -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-generated-files.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-own-target-headers.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-all-target-headers.hmap -Xcc -iquote -Xcc /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-project-headers.hmap -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/include -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources-normal/arm64 -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources/arm64 -Xcc -I/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-Swift.h -working-directory /Users/akmittal/projects/reclaim -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim.debug.dylib normal (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -O0 -L/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -L/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -F/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -F/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -filelist /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.LinkFileList -install_name @rpath/Reclaim.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/../Frameworks -Xlinker -object_path_lto -Xlinker /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.swiftmodule @/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -Xlinker -no_adhoc_codesign -o /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-ExecutorLinkFileList-normal-arm64.txt (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    construct-stub-executor-link-file-list /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'Reclaim' from project 'Reclaim')
+
+Ld /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim normal (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-macos14.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk -O0 -L/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -F/Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/../Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim-ExecutorLinkFileList-normal-arm64.txt /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim.debug.dylib -Xlinker -no_adhoc_codesign -o /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim
+
+CopySwiftLibs /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim.debug.dylib --scan-folder /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Frameworks --scan-folder /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/PlugIns --scan-folder /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Library/SystemExtensions --scan-folder /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Extensions --platform macosx --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+
+ExtractAppIntentsMetadata (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name Reclaim --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.5.sdk --xcode-version 17F42 --platform-family macOS --deployment-target 14.0 --bundle-identifier com.reclaim.Reclaim --output /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/Resources --target-triple arm64-apple-macos14.0 --binary-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim --dependency-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim_dependency_info.dat --stringsdata-file /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftFileList --metadata-file-list /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.DependencyMetadataFileList --static-metadata-file-list /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.DependencyStaticMetadataFileList --swift-const-vals-list /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Objects-normal/arm64/Reclaim.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-06-24 20:09:00.497 appintentsmetadataprocessor[9831:1997180] Starting appintentsmetadataprocessor export
+2026-06-24 20:09:00.498 appintentsmetadataprocessor[9831:1997180] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CodeSign /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim.debug.dylib (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/Reclaim.debug.dylib
+
+CodeSign /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/__preview.dylib (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app/Contents/MacOS/__preview.dylib
+
+CodeSign /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Intermediates.noindex/Reclaim.build/Debug/Reclaim.build/Reclaim.app.xcent --timestamp\=none --generate-entitlement-der /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app
+
+RegisterExecutionPolicyException /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-RegisterExecutionPolicyException /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app
+
+Validate /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    builtin-validationUtility /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app -no-validate-extension -infoplist-subpath Contents/Info.plist
+
+Touch /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /usr/bin/touch -c /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app
+
+RegisterWithLaunchServices /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app (in target 'Reclaim' from project 'Reclaim')
+    cd /Users/akmittal/projects/reclaim
+    /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Users/akmittal/Library/Developer/Xcode/DerivedData/Reclaim-bzyevtsvuogzwudmneqqcorujsus/Build/Products/Debug/Reclaim.app
+
+note: Disabling hardened runtime with ad-hoc codesigning. (in target 'Reclaim' from project 'Reclaim')
+** BUILD SUCCEEDED **
+
