@@ -1,1 +1,27 @@
-/.DS_Store
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode Build & Derived Data
+build/
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+xcuserdata/
+
+# XcodeGen Project Files
+# Since Reclaim.xcodeproj is programmatically generated from project.yml, it is excluded from git
+Reclaim.xcodeproj/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local Debug Logs
+app_debug.log
+build_output.log
+*.log
