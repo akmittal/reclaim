@@ -1,0 +1,108 @@
+name: CI & Release Pipeline
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-and-verify:
+    name: Build & Verify
+    runs-on: macos-14
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: sudo xcode-select -s /Applications/Xcode_15.3.app
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode Project
+        run: xcodegen
+
+      - name: Verify Compilation (Debug Build)
+        run: |
+          xcodebuild -project Reclaim.xcodeproj -target Reclaim -configuration Debug -destination 'platform=macOS' build
+
+  release:
+    name: Publish Release
+    needs: build-and-verify
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: macos-14
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode Version
+        run: sudo xcode-select -s /Applications/Xcode_15.3.app
+
+      - name: Install XcodeGen
+        run: brew install xcodegen
+
+      - name: Generate Xcode Project
+        run: xcodegen
+
+      # Set up macOS certificates for signing (if secrets are configured)
+      - name: Install Developer Certificates
+        env:
+          BUILD_CERTIFICATE_BASE64: ${{ secrets.MACOS_CERTIFICATE }}
+          P12_PASSWORD: ${{ secrets.MACOS_CERTIFICATE_PWD }}
+          KEYCHAIN_PASSWORD: ${{ secrets.MACOS_KEYCHAIN_PWD }}
+        run: |
+          if [ -z "$BUILD_CERTIFICATE_BASE64" ]; then
+            echo "Signing certificate not found. Building unsigned archive."
+            exit 0
+          fi
+          # Create temporary keychain
+          CERTIFICATE_PATH=$RUNNER_TEMP/build_certificate.p12
+          KEYCHAIN_PATH=$RUNNER_TEMP/app-signing.keychain-db
+
+          # Import certificate and keychain settings
+          echo -n "$BUILD_CERTIFICATE_BASE64" | base64 --decode -o $CERTIFICATE_PATH
+          security create-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+          security set-keychain-settings -lut 21600 $KEYCHAIN_PATH
+          security unlock-keychain -p "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+          security import $CERTIFICATE_PATH -k $KEYCHAIN_PATH -P "$P12_PASSWORD" -T /usr/bin/codesign -T /usr/bin/productsign
+          security set-key-partition-list -S apple-tool:,apple: -s -k "$KEYCHAIN_PASSWORD" $KEYCHAIN_PATH
+
+      - name: Build & Sign Application (Release Archive)
+        run: |
+          # If certificate is present, build and sign; otherwise build unsigned
+          xcodebuild -project Reclaim.xcodeproj -target Reclaim -configuration Release build
+
+      - name: Notarize & Package App Bundle
+        env:
+          APPLE_ID: ${{ secrets.APPLE_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+          APPLE_ID_PASSWORD: ${{ secrets.APPLE_ID_PASSWORD }}
+        run: |
+          # Compress for notarization
+          ditto -c -k --keepParent build/Release/Reclaim.app build/Reclaim.zip
+
+          # Submit to Apple Notary if secrets are set
+          if [ -n "$APPLE_ID" ] && [ -n "$APPLE_ID_PASSWORD" ]; then
+            echo "Submitting to Apple Notary Service..."
+            xcrun notarytool store-credentials "ReclaimNotary" --apple-id "$APPLE_ID" --team-id "$APPLE_TEAM_ID" --password "$APPLE_ID_PASSWORD"
+            xcrun notarytool submit build/Reclaim.zip --keychain-profile "ReclaimNotary" --wait
+            xcrun stapler staple build/Release/Reclaim.app
+            
+            # Re-archive the stapled app
+            rm build/Reclaim.zip
+            ditto -c -k --keepParent build/Release/Reclaim.app build/Reclaim.zip
+          else
+            echo "Notarization secrets missing. Skipping Apple Notary submission."
+          fi
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: build/Reclaim.zip
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
