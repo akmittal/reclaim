@@ -14,14 +14,14 @@ struct LargeFilesFinderView: View {
         var id: String { rawValue }
     }
     
-    var sortedFiles: [JunkFile] {
+    private func sortLargeFiles() {
         switch sortOrder {
         case .sizeDescending:
-            return appState.largeFiles.sorted(by: { $0.size > $1.size })
+            appState.largeFiles.sort(by: { $0.size > $1.size })
         case .sizeAscending:
-            return appState.largeFiles.sorted(by: { $0.size < $1.size })
+            appState.largeFiles.sort(by: { $0.size < $1.size })
         case .name:
-            return appState.largeFiles.sorted(by: { $0.url.lastPathComponent.localizedCompare($1.url.lastPathComponent) == .orderedAscending })
+            appState.largeFiles.sort(by: { $0.url.lastPathComponent.localizedCompare($1.url.lastPathComponent) == .orderedAscending })
         }
     }
     
@@ -172,6 +172,17 @@ struct LargeFilesFinderView: View {
                 }
                 .padding()
                 .background(.ultraThinMaterial)
+            }
+        }
+        .onAppear {
+            sortLargeFiles()
+        }
+        .onChange(of: sortOrder) { _, _ in
+            sortLargeFiles()
+        }
+        .onChange(of: appState.isScanning) { _, isScanning in
+            if !isScanning {
+                sortLargeFiles()
             }
         }
     }
