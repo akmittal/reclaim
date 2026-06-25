@@ -3,6 +3,8 @@
 **Reclaim** is a lightweight, high-performance, native macOS utility designed to clean temporary junk files, uninstall applications, analyze disk space interactively, and optimize system memory. Built with SwiftUI and Swift 6, Reclaim provides a premium dark-themed design system resembling CleanMyMac.
 
 ![App Icon](Reclaim/Assets.xcassets/AppIcon.appiconset/icon_256x256.png)
+![App Screenshot](screenshot/screenshot.png)
+
 
 ---
 
